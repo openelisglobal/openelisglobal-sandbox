@@ -1,4 +1,4 @@
-openelisglobal-core
-===================
+openelisglobal-sandbox
+======================
 
-Global OpenELIS (Enterprise Laboratory Information System) is an initiative to provide laboratory information systems for resource-constrained international clinical and reference laboratories.
+DO NOT USE FOR PRODUCTION.  This is a snapshot of openelisglobal-core which can be used to hone your git chops.  Don't worry about making mistakes, that is what it is here for.
