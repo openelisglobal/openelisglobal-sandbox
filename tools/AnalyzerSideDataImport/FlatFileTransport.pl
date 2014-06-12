@@ -95,19 +95,13 @@ my $upLoadPassword = 'ied1poh2Ku!';
 print "Welcome to analyzer import\n";
  
 while( 1 ){
+    print "updating " . localtime	
     updateQueue( $stagingDir1, $queueDir, $timeTagFile1 );
     updateQueue( $stagingDir2, $queueDir, $timeTagFile2 );
     sendToServer($queueDir, $upLoadtargetURL, $upLoadUserName, $upLoadPassword);
 
     sleep 30;
 }
-
-
-
-
-
-
-
 
 
  basename($file) eq $timeTagFile
